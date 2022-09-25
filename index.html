@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket Ball Score Card</title>
+    <link rel="stylesheet" href="ScoreCard.css">
+</head>
+
+<body>
+
+    <h1 id="title-el">Basket Ball Score Card</h1>
+
+    <div id="div-1" class="container">
+        <h2 id="home-el">Home</h2>
+        <div id="input1-el">
+            <h2 id="scoreH-el">0</h2>
+        </div>
+        <div id="buttons1-el">
+            <button class="calc-buttons" onclick="addOne1()">+1</button>
+            <button class="calc-buttons" onclick="addTwo1()">+2</button>
+            <button class="calc-buttons" onclick="addThree1()">+3</button>
+        </div>
+
+        <button id="reset-el" onclick="resetScore()">RESET</button>
+        <h2 id="guest-el">Guest</h2>
+        <div id="input2-el">
+            <h2 id="scoreG-el">0</h2>
+        </div>
+        <div id="buttons2-el">
+            <button class="calc-buttons" onclick="addOne2()">+1</button>
+            <button class="calc-buttons" onclick="addTwo2()">+2</button>
+            <button class="calc-buttons" onclick="addThree3()">+3</button>
+        </div>
+    </div>
+    <script src="ScoreCard.js"></script>
+</body>
+
+
+</html>
